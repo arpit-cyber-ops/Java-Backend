@@ -1,0 +1,4 @@
+1) Thread is a worker where the code is running
+2) Each Thread has it's own Stack but the Heap is shared among all of them .
+3) In Stack, things get deleted as soon as their work is finished.
+4) In Heap, the JVM (Garbage Collector) automatically frees memory when objects are no longer referenced. We do not free it manually.
